@@ -1,6 +1,6 @@
 /singleton/species/aquatic_mech
-	name = "Aquatic Mech"
-	name_plural = "Aquatic Mechs"
+	name = "Aquatic"
+	name_plural = "Aquatics"
 	description = "A fish-like aquatic species housed in a robotic water-filled suit for survival in air environments."
 
 	// Icon paths
