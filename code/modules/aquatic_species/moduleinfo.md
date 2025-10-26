@@ -83,7 +83,7 @@ This module is designed to be easily portable between different Baystation12 ins
 
 Credits 
 
-Chief Creator: Chickenking1234 
+Artist (partially): Chickenking1234 
 Lead Developer/Coder: LegateJulius/lordofmen
 Lead developer and designer of the aquatic mech species module, responsible for the complete implementation including species mechanics, protective equipment systems, and charging infrastructure. 
 

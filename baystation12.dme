@@ -3446,7 +3446,6 @@
 #include "interface\skin.dmf"
 #include "maps\_map_include.dm"
 #include "maps\_maps.dm"
-#include "maps\away\asteriod_signal\asteriod_signal_areas.dm"
 #include "maps\away\asteriod_signal\asteriodsignal.dm"
 #include "packs\event_e14b\_pack.dm"
 #include "packs\legion\_pack.dm"
