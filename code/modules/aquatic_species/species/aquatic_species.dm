@@ -4,12 +4,12 @@
 	description = "A fish-like aquatic species housed in a robotic water-filled suit for survival in air environments."
 
 	// Icon paths
-	icobase = 'icons/mob/human_races/species/human/body.dmi'
+	icobase = 'icons/mob/human_races/species/human/body.dmi' // once art is acquired, replace these with paths from aquatic_species.dmi
 	deform = 'icons/mob/human_races/species/human/deformed_body.dmi'
 	preview_icon = 'icons/mob/human_races/species/human/preview.dmi'
 
 	// Environmental requirements
-	breath_type = null
+	breath_type = null // suit handles breathing
 	breath_pressure = 0
 	cold_level_1 = 200
 	cold_level_2 = 150
