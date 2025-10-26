@@ -43,8 +43,8 @@
 	if(!has_valid_suit(H))
 		H.take_organ_damage(10)
 		H.visible_message(
-			SPAN_DANGER("[H]'s aquatic body begins to dry out!"),
-			SPAN_DANGER("You feel your body drying out! You need your suit!")
+			SPAN_DANGER("[H]'s aquatic skin begins to dry out!"),
+			SPAN_DANGER("You feel your skin drying out! You need your suit!")
 		)
 		return FALSE
 	return TRUE
