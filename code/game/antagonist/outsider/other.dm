@@ -55,14 +55,10 @@ GLOBAL_TYPED_NEW(others, /datum/antagonist/other)
 	if(!..())
 		return 0
 
-	// Give The Other a dark, otherworldly appearance
-	other_mob.set_species("Human") // Base it on human but we'll modify appearance
+	// Transform into The Other species
+	other_mob.set_species("The Other")
 	
-	// Dark clothing
-	other_mob.equip_to_slot_or_del(new /obj/item/clothing/under/color/black(other_mob), slot_w_uniform)
-	other_mob.equip_to_slot_or_del(new /obj/item/clothing/shoes/black(other_mob), slot_shoes)
-	other_mob.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/hooded/wintercoat/captain(other_mob), slot_wear_suit)
-	other_mob.equip_to_slot_or_del(new /obj/item/clothing/gloves/black(other_mob), slot_gloves)
+	// The Other doesn't need clothing - its cosmic form is its appearance
 
 	// Add abilities to The Other
 	add_other_abilities(other_mob)
